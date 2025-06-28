@@ -1,0 +1,40 @@
+# Node modules (if you ever add npm tools later)
+node_modules/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# VS Code Settings
+.vscode/
+
+# Logs
+*.log
+
+# MacOS specific
+.AppleDouble
+.LSOverride
+
+# Environment files (if you ever add deployment stuff)
+.env
+.env.local
+.env.production
+.env.development
+
+# Build output (if you ever use tools like Jekyll or Hugo in future)
+_build/
+dist/
+out/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Git Ignore Backup
+*.orig
+
+# Deployment artifacts (GitHub Pages builds into docs/ sometimes, ignore if you use another build folder)
+docs/
+
+# Cache folders
+.cache/
